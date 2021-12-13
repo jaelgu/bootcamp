@@ -4,7 +4,6 @@ from tensorflow.keras.applications.resnet50 import preprocess_input as preproces
 from tensorflow.keras.preprocessing import image
 from numpy import linalg as LA
 
-
 class Resnet50:
     def __init__(self):
         self.input_shape = (224, 224, 3)
