@@ -2,15 +2,7 @@ from numpy import linalg as LA
 from towhee import pipeline
 from PIL import Image
 
-
 class Resnet50:
-    """
-    Say something about the ExampleCalass...
-
-    Args:
-        args_0 (`type`):
-        ...
-    """
     def __init__(self):
         self.embedding_pipeline = pipeline('image-embedding')
 
